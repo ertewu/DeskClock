@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <uses-sdk android:minSdkVersion="10" >
+    <uses-sdk android:minSdkVersion="11" >
     </uses-sdk>
 
     <application
@@ -26,11 +26,11 @@
             android:authorities="com.android.deskclock_wzy"
             android:exported="false" />
 
-        <!-- 引导Activity -->
+        <!-- 我的Test Activity -->
         <activity
             android:name="com.android.deskclock_wzy.MainActivity"
             android:icon="@mipmap/ic_launcher_alarmclock"
-            android:label="@string/app_label"
+            android:label="@string/app_label2"
             android:launchMode="singleTask"
             android:theme="@style/DeskClock" >
             <intent-filter>
